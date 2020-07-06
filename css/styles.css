@@ -1,0 +1,158 @@
+/**************************TAG SELECTORS**************************/
+body {
+  color: #40514E;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Caveat', cursive;
+  font-size: 6.25rem;
+  line-height: 1.5;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-color: #11999E;
+  border-style: dotted none none;
+  border-width: 7px;
+  margin: 5rem auto;
+  width: 5%;
+}
+
+/************************CLASS SELECTORS************************/
+/************containers************/
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.middle-container {
+  line-height: 1.75;
+  padding: 6.25rem 0;
+}
+
+.profile {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.skill-row {
+  margin: 6.25rem auto;
+  text-align: left;
+  width: 50%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  font-size: 1rem;
+  line-height: 1.75;
+  padding-top: 3.125rem;
+}
+
+.contact-me {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.footer-link {
+  font-size: 1.25rem;
+  padding: 0 1rem;
+}
+
+.copy {
+  margin: 2rem auto 0;
+}
+
+.icons {
+  font-size: 0.75rem;
+  margin: 0 auto;
+}
+
+/************images************/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  left: 300px;
+  position: absolute;
+}
+
+.code {
+  float: left;
+  margin-right: 1.875rem;
+  width: 25%;
+}
+
+.gaming {
+  float: right;
+  margin-left: 1.875rem;
+  width: 25%;
+}
+
+/************button************/
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-size: 1.25rem;
+
+*/
+.btn {
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 12px;
+  background-color: #11999E;
+  border: solid #EAF6F6 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 3.215rem;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  border: solid #EAF6F6 1px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  text-decoration: none;
+}
